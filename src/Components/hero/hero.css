@@ -1,0 +1,86 @@
+.hero-contain{
+    height: calc(100vh - 100px);
+    background: linear-gradient(180deg, rgb(3, 3, 3), rgb(12, 12, 12),rgb(34, 31, 31),rgb(56, 52, 52));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* position: relative; */
+    overflow: hidden;
+}
+.hero-contain .wrapper{
+    max-width: 1366px;
+    height: 100%;
+}
+.hero-contain .wrapper .text-contain{
+    width: 80%;
+    /* margin-left: 80px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+    /* align-items: center; */
+}
+.hero-contain .wrapper .text-contain h1{
+    font-size: 67px;
+    color: white
+}
+.hero-contain .wrapper .text-contain h1 span{
+    font-size: 67px;
+    color: blueviolet;
+}
+.hero-contain .wrapper .btn{
+    display: flex;
+    gap: 7px;
+}
+.hero-contain .wrapper .btn button{
+    padding: 8px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    font-weight: 700;
+}
+.hero-contain .wrapper .btn a button{
+    padding: 8px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    font-weight: 700;
+}
+.hero-contain .wrapper .btn .filled{
+    background-color: white;
+    color: black;
+    padding: 8px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    font-weight: 700;
+}
+.hero-contain .wrapper .text-contain img{
+    height: 45px;
+    position: absolute;
+    bottom: 65px;
+    left: 140px;
+    rotate: 180deg;
+}
+.hero-contain .sliding{
+    position: absolute;
+    bottom: -63px;
+    font-size: 50vh;
+    white-space: nowrap;
+    color: #ffffff09;
+    font-weight: bold;
+    width: 50%;
+    overflow-x: none;
+    /* overflow-y: hidden; */
+}
+.hero-contain .img-contain{
+    height: 60%;
+    margin-right: 90px;
+}
+.hero-contain .img-contain img{
+    height: 100%;
+    border-radius: 150px;
+}

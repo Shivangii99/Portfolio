@@ -1,0 +1,28 @@
+.container{
+    height: 100px;
+}
+.wrapper{
+    max-width: 1366px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 460px;
+}
+.wrapper .span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.wrapper .social{
+    display: flex;
+    gap: 12px;
+}
+.wrapper .social img{
+    height: 22px;
+    width: 22px;
+}
+.wrapper .social img:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+}

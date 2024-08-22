@@ -1,0 +1,42 @@
+.parent-class{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.parent-class .container{
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 450px;
+}
+.parent-class .container .image img{
+    border-radius: 0px;
+    height: 100%;
+    width: 100%;
+}
+.parent-class .container .image p{
+    position: absolute;
+    top: 410px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(201, 201, 201, 0.7);
+    padding: 20px;
+    color: black;
+    width: 450px;
+}
+.parent-class .para{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    width: 350px;
+    margin: 85px auto 10px auto;
+    font-weight: 200;
+    letter-spacing: 0.7px;
+}
+.parent-class .para:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

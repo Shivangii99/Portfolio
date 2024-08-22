@@ -1,0 +1,76 @@
+.contact{
+    background: linear-gradient(180deg, rgb(20, 20, 20)rgb(36, 36, 37)6, rgb(73, 72, 77));
+    height: 100%;
+    width: 100%;
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin: 0px 55px; */
+}
+.text{
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 350px;
+    gap: 29px;
+    margin-bottom: 145px;
+    color: white;
+}
+.text h1{
+    font-size: 60px;
+    line-height: 60px;
+    text-align: left;
+}
+.text h4{
+    text-align: left;
+    display: inline-block;
+    width: 350px;
+}
+.text span{
+    display: inline-block;
+    font-size: 14px;
+    width: 350px;
+    text-align: left;
+}
+.form{
+    /* position: relative; */
+    /* margin: auto; */
+}
+.phonesvg{
+    position: absolute;
+    height: 360px;
+    z-index: -1;
+}
+.form form{
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.form form input,textarea{
+    border: 0.6px solid white;
+    background-color: transparent;
+    width: 450px;
+    padding: 13px;
+    border-radius: 5px;
+    color: white;
+    resize: none;
+}
+.form form button{
+    border: 0.6px solid white;
+    background-color: cyan;
+    width: 450px;
+    padding: 13px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.form form button:hover{
+    cursor: pointer;
+    
+}
